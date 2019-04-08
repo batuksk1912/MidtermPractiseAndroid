@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i<listSize; i++){
             Log.i("Member name: ", users.get(i).getName());
         }*/
+        
         processJSON();
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
